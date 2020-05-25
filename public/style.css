@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* normalize用のソース */
+.c-about {
+  color: #000;
+}
+
+.c-button {
+  padding: 8px;
+  font-size: 16px;
+}
+@media (max-width: 62em) {
+  .c-button {
+    padding: 4px;
+  }
+}
+
+.c-button--primary {
+  background: #aaa;
+  color: #000;
+}
+.c-button--primary:hover {
+  background: #fff;
+  color: #aaa;
+}
+.c-button--success {
+  background: #aaa;
+  color: #000;
+}
+.c-button--success:hover {
+  background: #fff;
+  color: #bbb;
+}
+
+.c-layout {
+  display: block;
+}
